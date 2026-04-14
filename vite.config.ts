@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react-oxc';
 import path from 'path';
 
 export default defineConfig({
-  base: '/Browser-Game/',
+  base: './',
   plugins: [react()],
   resolve: {
     alias: {

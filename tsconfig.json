@@ -15,10 +15,8 @@
     "noUnusedLocals": false,
     "noUnusedParameters": false,
     "noFallthroughCasesInSwitch": true,
-    "ignoreDeprecations": "6.0",
     "forceConsistentCasingInFileNames": true,
-    "baseUrl": ".", // Moved inside compilerOptions
-    "paths": {      // Moved inside compilerOptions
+    "paths": {
       "@/*": ["./*"],
       "@/lib/*": ["./lib/*"],
       "@/hooks/*": ["./hooks/*"],
@@ -26,7 +24,7 @@
       "@/types": ["./types.ts"],
       "@/constants": ["./constants.ts"]
     }
-  }, // This brace should be AFTER paths
+  },
   "include": ["**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules", "dist", "docs"] 
 }

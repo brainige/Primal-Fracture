@@ -1,5 +1,5 @@
 import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react-oxc'; // Changed from plugin-react-oxc as it was deprecated
+import react from '@vitejs/plugin-react';
 import path from 'path';
 
 export default defineConfig({

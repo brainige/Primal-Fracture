@@ -1,0 +1,30 @@
+{
+  "name": "farcry-classic-html",
+  "version": "1.0.0",
+  "description": "Primal Fracture game",
+  "main": "app.tsx",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.102.6",
+    "@react-three/fiber": "^8.16.1",
+    "@react-three/postprocessing": "^2.16.3",
+    "lucide-react": "^0.360.0",
+    "motion": "^11.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "three": "^0.163.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "@types/react": "^18.2.79",
+    "@types/react-dom": "^18.2.25",
+    "@types/three": "^0.163.0",
+    "@vitejs/plugin-react-oxc": "^0.4.3",
+    "typescript": "^5.4.5",
+    "vite": "^8.0.8"
+  }
+}

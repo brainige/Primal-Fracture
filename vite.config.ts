@@ -5,6 +5,9 @@ import path from 'path';
 export default defineConfig({
   base: './',
   plugins: [react()],
+  server: {
+    allowedHosts: ['primal-fracture.onrender.com'],
+  },
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './'),
